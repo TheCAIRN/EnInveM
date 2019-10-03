@@ -14,12 +14,12 @@
   ?>
 
 	<body class="mb-3" style="font-family: 'Oxygen', sans-serif;">
-	</br><br><br>
-		<center><h1 style="font-size:4rem;">Content Management Page</h1></center>
+	</br><br>
+		<center><h3 style="font-size:4rem;">Content Management Page</h3></center>
 		</br>
 		<div class="container col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 			<hr>
-			<br><br><br>
+			<br><br>
 			<button class="btn btn-primary col-12" style="font-family: 'Open Sans', sans-serif;" type="button" name="button" data-toggle="collapse" data-target="#vendorAdd" aria-expanded="false" aria-controls="vendorAdd"><h2><i class="fas fa-user-plus"></i> &nbsp Add a vendor</h2></button>
 			<div class="collapse" id="vendorAdd">
 				<br>
