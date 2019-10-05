@@ -20,9 +20,9 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ml-auto">
-              <a style="color: white;" href="" class="nav-item nav-link active">Inventory Management</a>
-              <a style="color: white;" href="" class="nav-item nav-link">Inventory Event Page</a>
-              <a style="color: white;" href="" class="nav-item nav-link">Inventory Report</a>
+              <a style="color: white;" href="Content Management Page.php" class="nav-item nav-link active">Inventory Management</a>
+              <a style="color: white;" href="Inventory Event Page.php" class="nav-item nav-link">Inventory Event Page</a>
+              <a style="color: white;" href="Inventory Report Page.php" class="nav-item nav-link">Inventory Report</a>
           </div>
 
         </div>
