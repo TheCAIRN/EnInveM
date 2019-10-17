@@ -44,10 +44,11 @@ if (isset($_POST['login-submit'])) {
         else if ($pwdCheck == true) {
           //need one of these on each page, so include this in header...
           session_start();
+	  $_SESSION['uid'] = $row['uidUsers'];
           $_SESSION['userId'] = $row['idUsers'];
           $_SESSION['userUid'] = $row['uidUsers'];
           //need actual file for this message...
-          header("Location:https://www.google.com");
+          header("Location: ../AddIn.php");
           exit();
         }
         else {
@@ -64,6 +65,6 @@ if (isset($_POST['login-submit'])) {
 
 }
 else {
-    header("Location:https://www.google.com");
+    header("Location: ../AddIn.php");
 }
 ?>

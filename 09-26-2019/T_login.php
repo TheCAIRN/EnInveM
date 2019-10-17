@@ -40,7 +40,6 @@
               </div>
 							<?php
 								echo '<button name="login-submit" type="submit" class="btn float-right" style="background-color:green; color:White;"><i class="fas fa-user-lock"></i> Login</button>';
-
 								?>
             </form>
             <br><br>
