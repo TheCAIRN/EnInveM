@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <title>Enactus | I.M.S. Login</title>
-		<link rel="shortcut icon" type="image/x-icon" href="Images/enactus_logo.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="Images/enactus_logo(C).png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
         <div class="card" style="font-family: 'Questrial', sans-serif;">
           <div class="card-header text-center text-white" style="background-color:#606060;">
 
-              <h1 class="card-title"><img src="Images/enactus_logo.png" alt="enactus_logo" style="width:8%; height:auto;"> Enactus | I.M.S. Login</h1>
+              <h1 class="card-title"><img src="Images/enactus_logo(C).png" alt="Enactus Logo" style="width:8%; height:auto;"> Enactus | I.M.S. Login</h1>
 
           </div>
           <div class="card-body">
