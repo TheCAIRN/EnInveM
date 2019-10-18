@@ -5,41 +5,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Showcase For Hope | IMS Login</title>
+    <title>Enactus | I.M.S. Login</title>
+		<link rel="shortcut icon" type="image/x-icon" href="Images/enactus_logo.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="CSS/login.css">-->
   </head>
-  <body class="bg-dark">
+  <body class="bg-light">
 
     <div class="container col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4">
       <br><br><br><br><br>
       <div class="col-12">
-        <div class="card" style="font-family: 'Questrial', sans-serif; color:green;">
-          <div class="card-header text-center" style="color:green;">
+        <div class="card" style="font-family: 'Questrial', sans-serif;">
+          <div class="card-header text-center text-white" style="background-color:#606060;">
 
-              <h1 class="card-title" style="opacity:none;">Showcase for Hope | I.M.S. Login</h1>
+              <h1 class="card-title"><img src="Images/enactus_logo.png" alt="enactus_logo" style="width:8%; height:auto;"> Enactus | I.M.S. Login</h1>
 
           </div>
           <div class="card-body">
             <br>
             <form class="" action="Includes/login.inc.php" method="post">
               <div class="form-group">
-                <h5><i class="fas fa-user"></i> Username:</h5>
+                <h5><i style="color:#ffc222;" class="fas fa-user"></i> Username:</h5>
                 <?php
-									echo '<input class="form-control" name="uid" placeholder="Ex. ILoveCodeNet" style="color:green;"/>';
+									echo '<input class="form-control" name="uid" placeholder="Ex. ILoveCodeNet" />';
                 ?>
               </div>
               <div class="form-group">
-                <h5><i class="fas fa-lock"></i> Password:</h5>
+                <h5><i style="color:#ffc222;" class="fas fa-lock"></i> Password:</h5>
 								<?php
-									echo '<input type="password" class="form-control" name="pwd" placeholder="Ex. CodeNetIzC001" style="color:green;"/>';
+									echo '<input type="password" class="form-control" name="pwd" placeholder="Ex. CodeNetIzC001" />';
 								?>
-                <a href="#" style="color:green;"><small>Forgot Password?</small></a>
               </div>
 							<?php
-								echo '<button name="login-submit" type="submit" class="btn float-right" style="background-color:green; color:White;"><i class="fas fa-user-lock"></i> Login</button>';
+								echo '<button name="login-submit" type="submit" class="btn float-right" style="background-color:#606060; color:White;"><i style="color:#ffc222;" class="fas fa-user-lock"></i> Login</button>';
 								?>
             </form>
             <br><br>
