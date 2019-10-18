@@ -12,7 +12,7 @@
 
     <nav style="background-color:#606060" class="navbar navbar-expand-md navbar-dark mb-3 fixed-top" id="navbar-layout">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img style="height: 180%; width: auto;" id="enactus" src="img/enactus_logo(C).png">
+        <a class="navbar-brand" href="Inventory Event Page.php"><img style="height: 180%; width: auto;" id="enactus" src="img/enactus_logo(C).png">
         </a>
         <button style="background-color: black;" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ml-auto text-right">
               <a href="Content Management Page.php" class="nav-item nav-link active">Inventory Management</a>
-              <a href="Inventory Event Page.php" class="nav-item nav-link">Inventory Event Page</a>
+              <a href="Inventory Event Page.php" class="nav-item nav-link">Inventory Tracking</a>
               <a href="Inventory Report Page.php" class="nav-item nav-link">Inventory Report</a>
           </div>
 
