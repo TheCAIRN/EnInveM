@@ -32,7 +32,7 @@
 				<div class="input-group">
 				  <input type="text" class="form-control" placeholder="Search" aria-label="SearchInput" aria-describedby="SearchButton" id="SearchInput">
 				  <div class="input-group-append">
-				    <button class="input-group-text btn btn-dark" id="SearchButton"><i style="color:#FFC222"; class="fas fa-search"></i>&nbsp Search</button>
+				    <button class="input-group-text btn" id="SearchButton"><i style="color:#FFC222"; class="fas fa-search"></i>&nbsp Search</button>
 				  </div>
 				</div>
 			</div>
