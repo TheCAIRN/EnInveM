@@ -24,9 +24,9 @@
 			<div class="collapse" id="vendorAdd">
 				<br>
 				<form class="" action="index.html" method="post">
-					<b><h5>Vendor Name: &nbsp</h5></b><input class="form-control mb-4" name="V_Name" placeholder="Enter Vendor Name" ></input>
-					<b><h5>Vendor Number: &nbsp</h5></b><input class="form-control mb-4" name="V_Number" placeholder="Enter Vendor Phone Number" ></input>
-					<b><h5>Vendor Email: &nbsp</h5></b><input class="form-control mb-4" name="V_Email" placeholder="Enter Vendor Phone Email" ></input>
+					<b><h5>Vendor Name: &nbsp</h5></b><input class="form-control mb-4" name="V_Name" placeholder="Enter Vendor Name" required="true" ></input>
+					<b><h5>Vendor Number: <i><small> (Format: 123-456-7890)</small></i> &nbsp</h5></b><input class="form-control mb-4" name="V_Number" placeholder="Enter Vendor Phone Number" required="true" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></input>
+					<b><h5>Vendor Email: &nbsp</h5></b><input class="form-control mb-4" name="V_Email" placeholder="Enter Vendor Phone Email" required="true" type="email"></input>
 					<div class="w-100 d-flex justify-content-end">
 						<button name="vendor-submit" class="btn">Submit</button>
 					</div>
@@ -39,13 +39,13 @@
 				<form>
 					<div class="form-group col-12">
 						<!--<b><h5>Vendor ID: &nbsp</h5></b><input class="form-control mb-4" name="V_ID" placeholder="Enter Vendor ID"></input>-->
-						<b><h5>Vendor Name: &nbsp</h5></b><select class="form-control mb-4" name="V_Name" placeholder="Enter Vendor Name" ></select>
+						<b><h5>Vendor Name: &nbsp</h5></b><select class="form-control mb-4" name="V_Name" placeholder="Enter Vendor Name" required="true"></select>
 						<!--<b><h5>Product ID: &nbsp</h5></b><input class="form-control mb-4" name="P_ID" placeholder="Enter Product ID"></input>-->
 						<b><h5>Product Name: &nbsp</h5></b><input class="form-control mb-4" name="P_Name" placeholder="Enter Product Name" required="true"></input>
-						<b><h5>Product Description: &nbsp</h5></b><input class="form-control mb-4" name="P_Description" placeholder="Enter Product Type"></input>
-						<b><h5>Product Price: &nbsp</h5></b><input class="form-control mb-4" name="P_Price" placeholder="Enter Product Price"></input>
-						<b><h5>Product Quantity: &nbsp</h5></b><input class="form-control mb-4" name="P_Quantity" placeholder="Enter Product Count"></input>
-						<b><h5>Addtional Information: <small style=" font-size:0.75rem; font-style:italic;">(Not Required)</small> &nbsp</h5></b><input class="form-control mb-4" name="Add_Info" placeholder="Enter Additional Information"></input>
+						<b><h5>Product Description: &nbsp</h5></b><input class="form-control mb-4" name="P_Description" placeholder="Enter Product Type" required="true"></input>
+						<b><h5>Product Price: &nbsp</h5></b><input class="form-control mb-4" name="P_Price" placeholder="Enter Product Price" required="true"></input>
+						<b><h5>Product Quantity: &nbsp</h5></b><input class="form-control mb-4" name="P_Quantity" placeholder="Enter Product Count" required="true" type="number"></input>
+						<b><h5>Addtional Information: <small style=" font-size:0.75rem; font-style:italic;">(Not Required)</small> &nbsp</h5></b><textarea rows="3" class="form-control mb-4" name="Add_Info" placeholder="Enter Additional Information"></textarea>
 
 						<div class="w-100 d-flex justify-content-end">
 							<button name="inventory-submit" class="btn">Submit</button>
