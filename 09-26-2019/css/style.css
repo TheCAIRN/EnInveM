@@ -6,6 +6,7 @@
 */
 #enactus {
   margin-bottom: 100px;
+  margin-top: 0px;
 
 }
 
@@ -26,4 +27,17 @@ a {
  height: 91px;
  line-height: 80px;
 
+}
+
+#OrSection h5 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid #000;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+#OrSection h5 span {
+    background:#fff;
+    padding:0 10px;
 }
