@@ -108,10 +108,10 @@
 		  </tr>
 		  </tbody>
 		</table>
-		<h3>Grand Total: $0.00</h3>
+		<h3>Grand Total: $2,400.00</h3>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel Order</button>
+        <button type="button" class="btn btn-danger">Cancel Order</button>
         <button type="button" class="btn btn-success">Purchase</button>
       </div>
     </div>
@@ -141,7 +141,7 @@
 		<div class="col-12">
 			<div class="row">
 			<form class="w-100" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-				<b><h5>Search Item Name:</h5></b>
+				<b><h5>Key Word Search</h5></b>
 				<div class="input-group">
 				  <input name="search" type="text" class="form-control" placeholder="Search" aria-label="SearchInput" aria-describedby="SearchButton" id="SearchInput">
 				  <div class="input-group-append">
@@ -192,7 +192,7 @@
 				echo '<td class="text-center">$'.$results["P_Price"]."</td>";
 				echo '<td class="text-center">'.$results["P_Quantity"]."</td>";
 				echo '<td class="text-center">'.$results["Add_Info"]."</td>";
-				echo '<td class="text-center"> <input class="form-control col-12" type="number"></input></td>';
+				echo '<td class="text-center"> <input class="form-control col-12" type="number" style="min-width:50px;"></input></td>';
 				echo '<td class="text-center"> <button class="btn btn-primary col-12"><i class="fas fa-cart-plus"></i></button></td></tr>';
 			}
 			echo '
@@ -212,9 +212,9 @@
 </div>
 <br>
 		<div>
-			<b><h5>Company: </h5></b>
+			<b><h5>Search Via Vendor Name: </h5></b>
 			<select name="selectCompany" class="col-12 col-md-6 form-control mb-4">
-			<option>Company</option>
+			<option>Vendor</option>
 				<?php
 				
 				include_once 'connection.php';
