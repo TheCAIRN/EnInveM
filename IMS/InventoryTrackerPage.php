@@ -1,3 +1,7 @@
+<?php
+    require "header.php";
+?>
+
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
@@ -11,7 +15,6 @@
     </head>
 <center>
 <body class="overflow-lock" style="font-family: 'Oxygen', sans-serif;">
-
     <!-- Modal -->
     <div class="modal fade" id="ShoppingCart" tabindex="-1" role="dialog" aria-labelledby="ShoppingCartLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -246,7 +249,7 @@
 
     <!--//! REMOVE !// -->
     <button class="special-button" type="button" onclick="getData();">
-        Make Ajax Call
+        Test Ajax Call
     </button>
     
     <div>
@@ -316,7 +319,7 @@
             if (this.readyState == 4 && this.status == 200) {
                 var responseObj = JSON.parse(this.responseText);
                 console.log(responseObj);
-                document.getElementById("OrSection").innerHTML = responseObj.name;
+                // document.getElementById("OrSection").innerHTML = responseObj.name;
             }
         };
         xmlhttp.open("GET", "apis/getCart.php", true);

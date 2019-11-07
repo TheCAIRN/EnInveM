@@ -19,7 +19,9 @@
                         <a style="color:white;" href="InventoryTrackerPage.php" class="nav-item nav-link">Inventory Tracking</a>
                         <a style="color:white;" href="InventoryManagementPage.php" class="nav-item nav-link">Inventory Management</a>
                         <a style="color:white;" href="InventoryReportPage.php" class="nav-item nav-link">Inventory Report</a>
-                        <button class="btn btn-outline-dark">Logout</button>
+                        <form action="includes/logout.inc.php" method="post">
+                            <button type="submit" class="btn btn-outline-dark" name="logout-submit">Logout</button>
+                        </form>
                     </div>
                 </div>
             </div>

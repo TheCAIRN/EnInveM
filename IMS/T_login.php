@@ -1,5 +1,5 @@
 <?php
-    require "header.php";
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -32,9 +32,7 @@
                                     <i style="color:#ffc222;" class="fas fa-user"></i>
                                     Username:
                                 </h5>
-                                <?php
-                                    echo '<input class="form-control" name="uid" placeholder="Ex. ILoveCodeNet" />';
-                                ?>
+                                <input class="form-control" name="uid" placeholder="Ex. ILoveCodeNet" />
                             </div>
 
                             <div class="form-group">
@@ -42,13 +40,12 @@
                                     <i style="color:#ffc222;" class="fas fa-lock"></i>
                                     Password:
                                 </h5>
-                                <?php
-                                    echo '<input type="password" class="form-control" name="pwd" placeholder="Ex. CodeNetIzC001" />';
-                                ?>
+                                <input type="password" class="form-control" name="pwd" placeholder="Ex. CodeNetIzC001" />
                             </div>
-                            <?php
-                                echo '<button name="login-submit" type="submit" class="btn float-right" style="background-color:#606060; color:White;"><i style="color:#ffc222;" class="fas fa-user-lock"></i> Login</button>';
-                            ?>
+                            <button name="login-submit" type="submit" class="btn float-right" style="background-color:#606060; color:White;">
+                                <i style="color:#ffc222;" class="fas fa-user-lock"></i> 
+                                Login
+                            </button>
                         </form>
                         <br><br>
                     <div class="col-12 text-center">
