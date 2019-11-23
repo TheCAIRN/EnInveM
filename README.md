@@ -1,2 +1,0 @@
-# EnInveM
-Enactus Inventory Manager
