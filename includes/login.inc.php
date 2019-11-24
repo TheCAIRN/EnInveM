@@ -10,7 +10,7 @@
             exit();
         } else {
             $stmt = mysqli_stmt_init($conn);
-            $sql = "SELECT pwdUsers FROM `Showcase_Users` WHERE uidUsers=?;";
+            $sql = "SELECT pwdUsers FROM `showcase_users` WHERE uidUsers=?;";
 
             if (!mysqli_stmt_prepare($stmt, $sql)) {
                 header("Location: ../T_login.php?error=sqlerror");
