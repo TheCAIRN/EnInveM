@@ -17,5 +17,5 @@
     mysqli_close($conn);
     session_unset();
     session_destroy();
-    header("Location: ../T_Login.php");
+    header("Location: ../T_login.php");
 ?>
