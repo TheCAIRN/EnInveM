@@ -42,7 +42,7 @@
                             
                         </tbody>
                     </table>
-                    <h3>Grand Total: $<span id="grand-total">2,400.00</span></h3>
+                    <h3>Grand Total: $<span id="grand-total">$0.00</span></h3>
                 </div>
                 <div class="modal-footer">
                     <button onclick="cancelOrder();" type="button" class="btn btn-danger">Cancel Order</button>
