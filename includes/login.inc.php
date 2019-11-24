@@ -6,7 +6,7 @@
         $password = $_POST['pwd'];
 
         if (empty($username) || empty($password)) {
-            header("Location: ../T_login.php?error=emptyvals"); // Send to error page
+            header("Location: ../T_login.php?error=emptyvals"); // Send to error page. Errors not in place currently
             exit();
         } else {
             $stmt = mysqli_stmt_init($conn);
