@@ -37,8 +37,11 @@
         $responseJSON = json_encode($success);
         echo $responseJSON;
     } else {
-        echo print_r(array($Product_ID, $Cart_ID, $Quantity));
-        echo "Error: ".$insert_vendor."<br>".mysqli_error($conn);
+        //echo print_r(array($Product_ID, $Cart_ID, $Quantity));
+        // echo "Error: ".$insert_vendor."<br>".mysqli_error($conn);
+        $success = array("Success" => false);
+        $responseJSON = json_encode($success);
+        echo $responseJSON;
     }
 
     mysqli_stmt_close($stmt);

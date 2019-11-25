@@ -42,7 +42,7 @@
         echo "</tbody>";
     echo "</table>";
 
-    echo "<center style='margin-top: 1rem;'><h2>Grand Total: $total</h2></center>";
+    echo "<center style='margin-top: 1rem;'><h2>Grand Total: \${$total}</h2></center>";
 
     mysqli_close($conn);
 ?>

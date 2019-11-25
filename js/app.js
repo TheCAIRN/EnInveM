@@ -30,7 +30,7 @@ function addToCart(product) {
 
 // GetCart() - Updates Cart Data Through Ajax
 function getCart() {
-	fetch("../IMS/apis/getCart.php")
+	fetch("../apis/getCart.php")
 		.then(function(response) {
 			return response.json();
 		})
@@ -67,7 +67,7 @@ function getCart() {
 
 // Purchase() - Handles Purchase And Updates
 function purchase() {
-	fetch("../IMS/apis/handleCart.php?handle=purchase")
+	fetch("../apis/handleCart.php?handle=purchase")
 		.then(function(response) {
 			return response.json();
 		})
@@ -82,7 +82,7 @@ function purchase() {
 
 // CancelOrder() - Clears Out Current Card
 function cancelOrder() {
-	fetch("../IMS/apis/handleCart.php?handle=cancel")
+	fetch("../apis/handleCart.php?handle=cancel")
 		.then(function(response) {
 			return response.json();
 		})

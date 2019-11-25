@@ -142,10 +142,11 @@
                 } else {
                 echo "No results";
                 }
+                mysqli_stmt_close($stmt);
             } else {
                 echo "Minimum length is ".$min_length;
             }
-            mysqli_stmt_close($stmt);
+           
         }
         mysqli_close($conn);
     ?>
