@@ -12,7 +12,7 @@ function addToCart(product) {
 		Quantity: qty
 	};
 
-	fetch("../IMS/apis/addToCart.php", {
+	fetch("../apis/addToCart.php", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json"
