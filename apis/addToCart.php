@@ -15,16 +15,16 @@
     }
 
     // Getting raw data from post
-    // $json = file_get_contents("php://input");
-    // $postObj = json_decode($json);
+    $json = file_get_contents("php://input");
+    $postObj = json_decode($json);
 
-    // $Product_ID = $postObj -> Product_ID;
-    // $Cart_ID = $_SESSION["Cart_ID"];
-    // $Quantity = $postObj -> Quantity;
-    $Product_ID = $_POST["Product_ID"];
+    $Product_ID = $postObj -> Product_ID;
     $Cart_ID = $_SESSION["Cart_ID"];
-    $Quantity = $_POST["Quantity"];
-    
+    $Quantity = $postObj -> Quantity;
+
+    // $Product_ID = $_POST["Product_ID"];
+    // $Cart_ID = $_SESSION["Cart_ID"];
+    // $Quantity = $_POST["Quantity"];
     
     $stmt = mysqli_stmt_init($conn);
     $insert_cart_details = "INSERT INTO `showcase_cart_details`(`Product_ID`, `Cart_ID`, `Quantity`) VALUES (?, ?, ?);";

@@ -119,7 +119,7 @@
             <input class="form-control mb-4" name="P_Description" placeholder="Enter Product Type" required="true"/>
 
             <b><h5>Product Price: &nbsp;</h5></b>
-            <input type="number" min="0" step='0.01' value='0.00' placeholder='0.00' class="form-control mb-4" name="P_Price" required="true"/>
+            <input type="number" min="0" step='0.01' placeholder='0.00' class="form-control mb-4" name="P_Price" required="true"/>
 
             <b><h5>Product Quantity: &nbsp</h5></b>
             <input min="0" class="form-control mb-4" name="P_Quantity" placeholder="Enter Product Count" required="true" type="number"/>
