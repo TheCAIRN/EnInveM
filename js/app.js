@@ -12,7 +12,7 @@ function addToCart(product) {
 		Quantity: qty
 	};
 
-	fetch("./../apis/addToCart.php", {
+	fetch("../apis/addToCart.php", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json"
@@ -30,7 +30,7 @@ function addToCart(product) {
 
 // GetCart() - Updates Cart Data Through Ajax
 function getCart() {
-	fetch("./../apis/getCart.php")
+	fetch("../apis/getCart.php")
 		.then(function(response) {
 			return response.json();
 		})
