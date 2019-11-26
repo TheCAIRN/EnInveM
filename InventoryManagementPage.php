@@ -37,7 +37,7 @@
             <input class="form-control mb-4" name="V_Name" placeholder="Enter Vendor Name" required="true"/>
 
             <b><h5>Vendor Number: <i><small style="font-size:0.75rem;"> (Format: 123-456-7890)</small></i></h5></b>
-            <input class="form-control mb-4" name="V_Number" placeholder="Enter Vendor Phone Number" required="true" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+            <input class="form-control mb-4" name="V_Number" placeholder="Enter Vendor Phone Number" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
 
             <b><h5>Vendor Email: </h5></b><input class="form-control mb-4" name="V_Email" placeholder="Enter Vendor Phone Email" required="true" type="email"/>
             
