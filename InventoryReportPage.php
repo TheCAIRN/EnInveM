@@ -14,7 +14,7 @@
 
     $total = 0;
 
-    echo "<table style='width: 95%; margin: 0 auto;' class='table table-dark'>";
+    echo "<table style='width: 95%; margin: 0 auto;' class='table table-dark text-center'>";
         echo "<thead class='text-center' style='color:#FFC222;'>";
             echo "<tr>";
                 echo "<th>Vendor</th>";
