@@ -2,7 +2,7 @@
     require "header.php";
     require "NavigationBar.php";
 ?>
-
+<body class="overflow-lock">
 <h3 style="text-align: center; font-size: 3rem; margin-bottom: 0.5em;">Report Page</h3>
 
 <?php
@@ -46,3 +46,15 @@
 
     mysqli_close($conn);
 ?>
+
+<style>
+    .btn {
+        background-color: #606060;
+        color: white;
+    }
+
+    .overflow-lock {
+        overflow-y: scroll;
+    }
+</style>
+</body>
