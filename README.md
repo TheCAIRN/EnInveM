@@ -9,3 +9,5 @@
 -   Allow clear by individual items
 -   Enable sorting in report page
 -   Add to Cart Handle
+-   Error Messages
+-   Add negative inventory
